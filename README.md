@@ -80,4 +80,5 @@ jobs:
             - name: Rodar minha rotina de testes com o Poetry
               run: poetry run pytest tests -v
 ```
-Following, write a test like in `test_funcao_hello_world`. The test will fail because there is no such module yet.
+Following, write a test like in `test_funcao_hello_world`. The test will fail because there is no such module yet. This is the point of TDD, to test something that is not done yet. 
+The advantage of using TDD is that is not necessary to test later, as its development is made with the tests themselves.
