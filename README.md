@@ -1,7 +1,8 @@
 # data-quality-fw
 
+The hands-on project documentation is located in docs folder
 
-### SETTINGS FOR HIGH QUALITY PROJECTS AND TDD
+## SETTINGS FOR HIGH QUALITY PROJECTS AND TDD
 
 Summary
 1. Git: start a git and github repo
@@ -82,3 +83,5 @@ jobs:
 ```
 Following, write a test like in `test_funcao_hello_world`. The test will fail because there is no such module yet. This is the point of TDD, to test something that is not done yet. 
 The advantage of using TDD is that is not necessary to test later, as its development is made with the tests themselves.
+8. Pydantic: It is useful tool to be easier to validate data structures.
+9. Pandera: Similar do Pydantic but focused on data frames.
