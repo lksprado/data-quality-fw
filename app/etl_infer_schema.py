@@ -100,7 +100,10 @@ if __name__ == "__main__":
     
     query = "SELECT * FROM produtos_bronze_email"
     df_crm = extrair_do_sql(query=query)
-
+    schema_crm = pa.infer_schema(df_crm)
+    
+    with open("schema_crm.py", "w", encoding="utf-8") as arquivo:
+        arquivo.write(schema_crm.to_script())
     # df_crm_kpi = transformar(df_crm)
 
     # with open("inferred_schema.json", "r") as file:
