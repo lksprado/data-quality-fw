@@ -6,7 +6,7 @@ import pandera as pa
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
-#from schema import ProdutoSchema, ProductSchemaKPI
+from .schema import ProdutoSchema #, ProductSchemaKPI
 
 ### CARREGAR CONEXAO COM O BANCO PRIMEIRO
 def load_settings():

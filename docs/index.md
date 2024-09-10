@@ -19,7 +19,7 @@ graph TD;
 
 ::: app.schema.ProdutoSchema
 
-# Transformacoes
+<!-- # Transformacoes
 
 ## Configura Variáveis
 
@@ -34,4 +34,4 @@ graph TD;
 
 ## Salvar no DuckDB
 S
-::: app.etl.load_to_duckdb
+::: app.etl.load_to_duckdb -->
